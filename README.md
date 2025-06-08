@@ -42,7 +42,7 @@ Each dataset contains key columns:
   - R² Score  
   - RMSE (Root Mean Square Error)
 
-### 📈 Results
+###  Results
 
 | Dataset     | R² Score   | RMSE     |
 |-------------|------------|----------|
