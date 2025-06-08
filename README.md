@@ -3,7 +3,7 @@
 
 This repository contains code and data for a machine learning-based study aimed at predicting the bioactivity of compounds targeting **Acetylcholinesterase (AChE)** — a key therapeutic target in the treatment of Alzheimer's disease. The project leverages molecular descriptors derived from SMILES strings to predict IC50 values using regression models.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -16,7 +16,7 @@ This repository contains code and data for a machine learning-based study aimed 
 └── README.md                            # Project overview and instructions
 ```
 
-## 📊 Datasets
+## Datasets
 
 Each dataset contains key columns:
 - `molecule_chembl_id`: Unique ChEMBL compound ID
@@ -33,7 +33,7 @@ Each dataset contains key columns:
   - Number of Hydrogen Donors
   - Number of Hydrogen Acceptors
 
-## 🔬 Modeling Approach
+## Modeling Approach
 
 - **Model**: Random Forest Regressor (scikit-learn)
 - **Features**: RDKit molecular descriptors
@@ -51,7 +51,7 @@ Each dataset contains key columns:
 
 These results indicate scope for improvement via feature engineering or advanced ML techniques.
 
-## ⚙️ Dependencies
+## Dependencies
 
 - Python 3.8+
 - pandas
@@ -66,19 +66,19 @@ These results indicate scope for improvement via feature engineering or advanced
 pip install pandas numpy scikit-learn rdkit
 ```
 
-## 🚀 Future Plans
+## Future Plans
 
 - Explore advanced models (e.g., XGBoost, Deep Learning)
 - Add molecular fingerprints & physicochemical features
 - Extend predictions to other Alzheimer’s-related targets
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 - Working with cheminformatics datasets and SMILES strings
 - Molecular descriptor computation using RDKit
 - Regression modeling with scikit-learn
 - Model evaluation using R² and RMSE
 
-## 📎 License
+## License
 
 This project is intended for academic and research purposes. Attribution required for reuse.
