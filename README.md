@@ -16,7 +16,7 @@ This repository contains code and data for a machine learning-based study aimed 
 │   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb    # Pipeline for AChE Dataset 1
 │   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb    # Pipeline for AChE Dataset 2
 │   ├── {File_name}.ipynb                                   # Experiments: Playing around with different model architecture and combination of datasets
-│──complete_ML_Pipeline_Best_Performers.ipynb           # Final pipeline: multi-task NN, ensemble, MAO integration
+│──complete_mL_pipeline_best_performers.ipynb           # Final pipeline: multi-task NN, ensemble, MAO integration
 │── LLM_Ollama.ipynb                                     # Initial LLM experiments using TinyLlama + prompt engineering
 ├── README.md                                            # Project overview and instructions
 
