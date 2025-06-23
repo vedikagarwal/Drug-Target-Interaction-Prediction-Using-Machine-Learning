@@ -66,7 +66,7 @@ Each dataset contains key columns:
 ### Install Requirements
 
 ```bash
-pip install pandas numpy scikit-learn rdkit
+pip install pandas matplotlib seaborn rdkit scikit-learn tensorflow datasets scikit-learn pandas numpy transformers
 ```
 
 ## Future Plans
