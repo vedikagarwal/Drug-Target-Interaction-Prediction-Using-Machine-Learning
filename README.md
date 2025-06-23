@@ -8,12 +8,18 @@ This repository contains code and data for a machine learning-based study aimed 
 ```
 .
 ├── Initial_Datasets
-│   ├── AChE_Bioactivity_data_1.csv      # Dataset from ChEMBL (15K+ compounds)
-│   └── AChE_Bioactivity_data_2.csv      # Dataset from CHEMBL with different subset (12K + compounds)
+│   ├── AChE_Bioactivity_data_1.csv        # ChEMBL AChE dataset (15K+ compounds)
+│   ├── AChE_Bioactivity_data_2.csv        # Alternate ChEMBL AChE subset (12K+ compounds)
+│   ├── mao_a_ic50.csv                     # MAO-A inhibitors (2,400+ rows)
+│   └── mao_b_ic50.csv                     # MAO-B inhibitors (300+ rows)
 ├── Notebooks
-│   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb  # Pipeline for Dataset 1
-│   └── Drug_Target_Interaction_Prediction_Dataset2.ipynb  # Pipeline for Dataset 2
-└── README.md                            # Project overview and instructions
+│   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb    # Pipeline for AChE Dataset 1
+│   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb    # Pipeline for AChE Dataset 2
+│   ├── Modeling_Experiments.ipynb                           # Experiments: model comparison, dataset integration
+│   ├── Complete_ML_Pipeline_Best_Performers.ipynb           # Final pipeline: multi-task NN, ensemble, MAO integration
+│   └── LLM_Ollama.ipynb                                     # Initial LLM experiments using TinyLlama + prompt engineering
+├── README.md                                                # Project overview and instructions
+
 ```
 
 ## Datasets
@@ -35,7 +41,7 @@ Each dataset contains key columns:
 
 ## Modeling Approach
 
-- **Model**: Random Forest Regressor (scikit-learn)
+- **Model**: Random Forest Regressor (scikit-learn), Neural Networks and Ensemble modelling
 - **Features**: RDKit molecular descriptors
 - **Target**: `log_ic50`
 - **Evaluation Metrics**:  
@@ -44,12 +50,9 @@ Each dataset contains key columns:
 
 ###  Results
 
-| Dataset     | R² Score   | RMSE     |
-|-------------|------------|----------|
-| Dataset 1   | -0.0603    | 1.3540   |
-| Dataset 2   |  0.0170    | 1.7108   |
+<img width="1052" alt="results_o:p" src="https://github.com/user-attachments/assets/b0b712fd-db5e-4a68-9edb-45976e8f0a5d" />
 
-These results indicate scope for improvement via feature engineering or advanced ML techniques.
+<img width="332" alt="evaluation_metrics" src="https://github.com/user-attachments/assets/2cfed9dc-4e4c-44c2-b993-a1b1d246654e" />
 
 ## Dependencies
 
@@ -68,9 +71,9 @@ pip install pandas numpy scikit-learn rdkit
 
 ## Future Plans
 
-- Explore advanced models (e.g., XGBoost, Deep Learning)
-- Add molecular fingerprints & physicochemical features
-- Extend predictions to other Alzheimer’s-related targets
+- Explore and play around with LLM's
+- Extend to other disaeses
+- Create a more robust ML pipleine 
 
 ## Learning Outcomes
 
