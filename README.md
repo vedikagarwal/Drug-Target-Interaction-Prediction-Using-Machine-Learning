@@ -14,7 +14,6 @@ This repository contains code and data for a machine learning-based study aimed 
 │   ├── mao_a_ic50.csv                         # MAO-A inhibitors (2,400+ rows)
 │   ├── mao_b_ic50.csv                         # MAO-B inhibitors (300+ rows)
 │   └── ppar_binding_affinity_dataset.csv      # PPAR binding affinity data for diabetes
-
 ├── Notebooks                                  # Experimental / exploratory notebooks
 │   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb        # Pipeline for AChE Dataset 1
 │   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb        # Pipeline for AChE Dataset 2
@@ -24,13 +23,9 @@ This repository contains code and data for a machine learning-based study aimed 
 │   ├── ECFP4_FingerPrint_and_Neural_Network.ipynb               # Feature exploration with ECFP4
 │   ├── mao_b_and_AChe_regression.ipynb                          # Regression tasks on AChE + MAO-B
 │   └── {File_name}.ipynb                                        # Experimental: model/dataset trials
-
 ├── complete_ml_pipeline_best_performers.ipynb   # Final DTI pipeline (multi-task NN + ensemble + MAO)
-
 ├── Diabetes_ppar_descriptor.ipynb               # PPAR-specific pipeline with descriptor engineering
-
-├── LLM_Ollama.ipynb                             # LLM experiments using TinyLlama for DTI tasks
-
+├── LLM_Ollama.ipynb                             # LLM experiments using TinyLlama for DTI task
 ├── README.md                                    # Project overview, setup instructions, usage guide
 ├── final_working_pipeline/                      # Finalized, production-ready ML + docking pipelines
     ├── alzheimers_parkinsons_dti_pipeline/      # Alzheimer's + Parkinson’s complete ML pipeline
@@ -39,7 +34,6 @@ This repository contains code and data for a machine learning-based study aimed 
     │       ├── AChE_Bioactivity_data_2.csv
     │       ├── mao_a_ic50.csv
     │       └── mao_b_ic50.csv
-
     ├── diabetes_dti_pipeline/                   # Diabetes pipeline (ML + docking + descriptors)
         ├── Diabetes_ppar_descriptor.ipynb       # Integrated pipeline for PPAR-related drug prediction
         ├── autodock_files/                      # Files used in AutoDock Vina docking workflow
