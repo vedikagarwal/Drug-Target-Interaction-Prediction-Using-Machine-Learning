@@ -30,13 +30,15 @@ This repository contains code, data, and molecular docking files for a machine l
 
 ### Final working pipeline
 
-├── final_working_pipeline/                              # Finalized, production-ready ML + docking pipelines
+├── final_working_pipeline/    # Finalized, production-ready ML + docking pipelines
+
 │   ├── alzheimers_parkinsons_dti_pipeline/              # Alzheimer's + Parkinson’s complete ML pipeline
 │   │   ├── complete_ml_pipeline_best_performers.ipynb
 │   │   └── dataset/                                     # Curated dataset subset for this pipeline
 │   │       ├── AChE_Bioactivity_data_2.csv
 │   │       ├── mao_a_ic50.csv
 │   │       └── mao_b_ic50.csv
+
 │   ├── diabetes_dti_pipeline/                           # Diabetes pipeline (ML + docking + descriptors)
 │   │   ├── Diabetes_ppar_descriptor.ipynb               # Integrated pipeline for PPAR-related drug prediction
 │   │   ├── autodock_files/                              # Files used in AutoDock Vina docking workflow
