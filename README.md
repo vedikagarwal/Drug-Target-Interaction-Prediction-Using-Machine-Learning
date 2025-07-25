@@ -5,9 +5,7 @@ This repository contains code and data for a machine learning-based study aimed 
 
 ## Repository Structure
 
-## Repository Structure
-
-```text
+```
 .
 ├── Initial_Datasets
 │   ├── AChE_Bioactivity_data_1.csv        # ChEMBL AChE dataset (15K+ compounds)
@@ -55,6 +53,8 @@ This repository contains code and data for a machine learning-based study aimed 
 │   │           ├── merging_alpha_glucosidase.csv
 │   │           ├── merging_alpha_glucosidase_cleaned.csv
 │   │           └── ppar_2d_descriptors.csv
+
+```
 
 ## Datasets
 
