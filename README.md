@@ -7,7 +7,7 @@ This repository contains code, data, and molecular docking files for a machine l
 
 - [Drug Target Interaction Prediction Using Machine Learning (PDF)](https://drive.google.com/file/d/1gg3f8TrlH6L94q90kwe5oInl10chNTwR/view?usp=drive_link)
 - [YouTube Video Link](https://youtu.be/9rEyzLjSJoE)
-- [Presentation Slides Link](https://docs.google.com/presentation/d/1PD5dX5WJ3FrnxU2-zjvIQcWOGQ6kb5vz/edit?slide=id.p28#slide=id.p28)
+- [Presentation Slides Link](https://docs.google.com/presentation/d/1PD5dX5WJ3FrnxU2-zjvIQcWOGQ6kb5vz/edit?usp=drive_link&ouid=109140940851852177774&rtpof=true&sd=true)
 
 
 ## Repository Structure
