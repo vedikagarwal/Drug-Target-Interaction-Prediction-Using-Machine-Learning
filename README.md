@@ -102,12 +102,12 @@ Each dataset contains key columns:
 
 ###  Results
 
-- Diabetes
+### Diabetes
 
 <img width="1664" height="1632" alt="image" src="https://github.com/user-attachments/assets/4435b7c2-4831-4250-a429-00c2beb70c9c" />
 
 
-- Alzheimer's and Parkinson's
+### Alzheimer's and Parkinson's
 
 <img width="1052" alt="results_o:p" src="https://github.com/user-attachments/assets/b0b712fd-db5e-4a68-9edb-45976e8f0a5d" />
 
