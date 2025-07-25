@@ -20,7 +20,8 @@ This repository contains code and data for a machine learning-based study aimed 
 │   ├── {File_name}.ipynb                                   # Experiments: Playing around with different model architecture and combination of datasets
 ├── complete_mL_pipeline_best_performers.ipynb           # Final pipeline: multi-task NN, ensemble, MAO integration
 ├── LLM_Ollama.ipynb                                     # Initial LLM experiments using TinyLlama + prompt engineering
-├── README.md                                            # Project overview and instructions
+├── README.md
+                                         # Project overview and instructions
 ├── final_working_pipeline/                              # Finalized, production-ready ML + docking pipelines
 │   ├── alzheimers_parkinsons_dti_pipeline/              # Alzheimer's + Parkinson’s complete ML pipeline
 │   │   ├── complete_ml_pipeline_best_performers.ipynb
@@ -54,8 +55,6 @@ This repository contains code and data for a machine learning-based study aimed 
 │   │           ├── merging_alpha_glucosidase.csv
 │   │           ├── merging_alpha_glucosidase_cleaned.csv
 │   │           └── ppar_2d_descriptors.csv
-
-```text
 
 ## Datasets
 
