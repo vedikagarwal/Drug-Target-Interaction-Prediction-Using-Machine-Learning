@@ -2,17 +2,7 @@
 # Drug–Target Interaction Prediction Using Machine Learning
 
 This repository contains code, data, and molecular docking files for a machine learning-based pipeline focused on predicting the bioactivity of small molecules against key therapeutic targets related to Alzheimer's disease, Parkinson's Disease and Type 2 Diabetes.
-
-The project includes:
-
-- **Alzheimer’s Pipeline**: Predicting IC50 values of compounds targeting Acetylcholinesterase (AChE) using molecular descriptors derived from SMILES strings and regression models.
-- **Diabetes Pipeline**: Analysis and prediction of bioactive compounds against alpha-glucosidase for managing postprandial blood glucose levels.
-- **AutoDock Vina Setup**: Ligand-receptor interaction studies via molecular docking to validate binding affinity.
-- **Preprocessing Scripts**: Standardized workflows for descriptor calculation, data cleaning, and visualization.
-- **Organized Directory Structure**: Clear separation of raw datasets, processed results, and docking files.
-
-This unified pipeline aims to combine cheminformatics and docking-based methods for robust drug-target interaction prediction.
-
+ 
 ## Final Report
 
 - [Drug Target Interaction Prediction Using Machine Learning (PDF)](https://drive.google.com/file/d/1gg3f8TrlH6L94q90kwe5oInl10chNTwR/view?usp=drive_link)
