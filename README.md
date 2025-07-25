@@ -4,6 +4,59 @@
 This repository contains code and data for a machine learning-based study aimed at predicting the bioactivity of compounds targeting **Acetylcholinesterase (AChE)** — a key therapeutic target in the treatment of Alzheimer's disease. The project leverages molecular descriptors derived from SMILES strings to predict IC50 values using regression models.
 
 ## Repository Structure
+
+## Repository Structure
+
+```text
+.
+├── Initial_Datasets
+│   ├── AChE_Bioactivity_data_1.csv        # ChEMBL AChE dataset (15K+ compounds)
+│   ├── AChE_Bioactivity_data_2.csv        # Alternate ChEMBL AChE subset (12K+ compounds)
+│   ├── mao_a_ic50.csv                     # MAO-A inhibitors (2,400+ rows)
+│   └── mao_b_ic50.csv                     # MAO-B inhibitors (300+ rows)
+├── Notebooks
+│   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb    # Pipeline for AChE Dataset 1
+│   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb    # Pipeline for AChE Dataset 2
+│   ├── {File_name}.ipynb                                   # Experiments: Playing around with different model architecture and combination of datasets
+├── complete_mL_pipeline_best_performers.ipynb           # Final pipeline: multi-task NN, ensemble, MAO integration
+├── LLM_Ollama.ipynb                                     # Initial LLM experiments using TinyLlama + prompt engineering
+├── README.md                                            # Project overview and instructions
+├── final_working_pipeline/                              # Finalized, production-ready ML + docking pipelines
+│   ├── alzheimers_parkinsons_dti_pipeline/              # Alzheimer's + Parkinson’s complete ML pipeline
+│   │   ├── complete_ml_pipeline_best_performers.ipynb
+│   │   └── dataset/                                     # Curated dataset subset for this pipeline
+│   │       ├── AChE_Bioactivity_data_2.csv
+│   │       ├── mao_a_ic50.csv
+│   │       └── mao_b_ic50.csv
+│   ├── diabetes_dti_pipeline/                           # Diabetes pipeline (ML + docking + descriptors)
+│   │   ├── Diabetes_ppar_descriptor.ipynb               # Integrated pipeline for PPAR-related drug prediction
+│   │   ├── autodock_files/                              # Files used in AutoDock Vina docking workflow
+│   │   │   ├── config/                                  # Docking configuration
+│   │   │   │   └── config.txt
+│   │   │   ├── docking_results/                         # Output from docking simulations
+│   │   │   │   └── ppar_docking.csv
+│   │   │   ├── ligand/                                  # Ligand molecule files
+│   │   │   │   ├── ligand.pdb
+│   │   │   │   ├── ligand.pdbqt
+│   │   │   │   └── ligand_atoms.txt
+│   │   │   └── receptor/                                # Receptor (PPAR) structure files
+│   │   │       ├── 4ema.pdb
+│   │   │       └── ppar.pdbqt
+│   │   └── datasets/                                    # Diabetes-specific datasets and preprocessing
+│   │       ├── alpha_glucosidase/                       # Raw alpha-glucosidase ChEMBL compound datasets
+│   │       │   ├── CHEMBL1163102.csv
+│   │       │   ├── CHEMBL1293309.csv
+│   │       │   ├── ...                                  # Other compound files
+│   │       │   └── alpha_glucosidase.csv
+│   │       ├── alpha_glucosidase_targets/               # Target info for alpha-glucosidase compounds
+│   │       │   └── targets_alpha_glucosidase.csv
+│   │       └── processed_dataset/                       # Cleaned and merged data for training/testing
+│   │           ├── merging_alpha_glucosidase.csv
+│   │           ├── merging_alpha_glucosidase_cleaned.csv
+│   │           └── ppar_2d_descriptors.csv
+
+
+
 '''
 .
 ├── Initial_Datasets
@@ -51,8 +104,6 @@ This repository contains code and data for a machine learning-based study aimed 
                 ├── merging_alpha_glucosidase.csv
                 ├── merging_alpha_glucosidase_cleaned.csv
                 └── ppar_2d_descriptors.csv
-
-
 
 '''
 
