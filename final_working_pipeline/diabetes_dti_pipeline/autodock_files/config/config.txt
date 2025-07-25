@@ -1,0 +1,15 @@
+receptor = ppar.pdbqt
+ligand = ligand.pdbqt  # You will override this in your script
+
+center_x = 14.7844
+center_y = 7.082
+center_z = 44.5036
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+exhaustiveness = 8
+num_modes = 9
+energy_range = 3
+

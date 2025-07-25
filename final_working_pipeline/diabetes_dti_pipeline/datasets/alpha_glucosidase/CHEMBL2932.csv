@@ -1,0 +1,22 @@
+molecule_chembl_id,canonical_smiles,standard_value,pref_name,search_term
+CHEMBL223096,N[C@@H]1C[C@](O)(CO)[C@@H](O)[C@H](O)[C@H]1O,36000.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL598822,CO[C@@H]1O[C@H](Cn2cc(-c3ccccc3)nn2)[C@H]2OC(C)(C)O[C@@H]12,14900.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL598823,CO[C@@H]1O[C@H](Cn2cc(C3=CCCCC3)nn2)[C@H]2OC(C)(C)O[C@@H]12,3800.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL603160,CCOC(=O)c1cn(C[C@H]2O[C@@H](OC)[C@@H]3OC(C)(C)O[C@@H]32)nn1,15100.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL597996,CO[C@@H]1O[C@H](Cn2cc(COc3ccccc3)nn2)[C@H]2OC(C)(C)O[C@@H]12,5700.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL597186,CO[C@@H]1O[C@H](Cn2cc(C3(O)CCCCC3)nn2)[C@H]2OC(C)(C)O[C@@H]12,5200.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL590279,CO[C@@H]1O[C@H](Cn2cc(COC3CCCCO3)nn2)[C@H]2OC(C)(C)O[C@@H]12,24700.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL404271,C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@H]3[C@H](O)[C@@H](O)C(O)O[C@@H]3CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O,108800.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827130,c1ccc(-c2ccnc3nnnn23)cc1,422300.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827998,Clc1ccc(-c2ccnc3nnnn23)cc1,421200.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827471,Fc1ccc(-c2ccnc3nnnn23)cc1,177600.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827545,Cc1ccc(-c2ccnc3nnnn23)cc1,49800.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827315,O=[N+]([O-])c1ccc(-c2ccnc3nnnn23)cc1,307500.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3828529,Oc1ccccc1-c1ccnc2nnnn12,1739000.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827417,COc1ccc(-c2ccnc3nnnn23)cc1,85700.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3828143,Brc1ccc(-c2ccnc3nnnn23)cc1,,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827530,c1ccc(-c2ccnc3nnnn23)nc1,591200.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827977,O=c1oc2ccccc2cc1-c1ccnc2nnnn12,446100.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3828292,c1ccc2oc(-c3ccnc4nnnn34)cc2c1,,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL3827382,c1csc(-c2ccnc3nnnn23)c1,1011900.0,Alpha-glucosidase MAL12,alpha_glucosidase
+CHEMBL4299399,C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)[C@H](O[C@H]3[C@H](O)[C@@H](O)C(O)O[C@@H]3CO)O[C@H]2CO)[C@@H](O)[C@H](O)[C@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O,33900.0,Alpha-glucosidase MAL12,alpha_glucosidase

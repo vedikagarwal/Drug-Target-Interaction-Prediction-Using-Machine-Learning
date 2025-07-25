@@ -1,0 +1,15 @@
+molecule_chembl_id,canonical_smiles,standard_value,pref_name,search_term
+CHEMBL313375,OCC1C(O)C(O)C2OC(Nc3ccccc3)=NC12,3000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL87120,NC1C(O)C(O)C(O)C1O,46900.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL86772,OCC12OC(Nc3ccccc3)=NC1C(O)C(O)C2O,51700.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL88408,OCC1(O)C(O)C(O)C2N=C(Nc3ccccc3)OC21,153000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL86865,OC1C(O)C2N=C(Nc3ccccc3)OC2C1O,300000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL88413,NC1C(O)C(O)C(O)C1(O)CO,300000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL314403,OCC1(O)C(O)C(O)C2(CO)OCC(Nc3ccccc3)=NC12,23900.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL307429,OC[C@H]1NC[C@H](O)[C@@H](O)[C@@H]1O,300000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL312653,OC[C@H]1N[C@H](CO)[C@@H](O)[C@@H]1O,170000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL456583,OC[C@H]1NCC[C@H](O)[C@@H]1O,,Alpha-glucosidase,alpha_glucosidase
+CHEMBL1818438,OC[C@H]1NCC[C@@H](O)[C@H]1O,,Alpha-glucosidase,alpha_glucosidase
+CHEMBL2114189,CC[C@H]1NC[C@@H](O)[C@@H]1O,89000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL108084,OC[C@H]1NCC[C@@H](O)[C@@H]1O,520000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL2115197,CC[C@H]1NC[C@H](O)[C@@H]1O,540000.0,Alpha-glucosidase,alpha_glucosidase

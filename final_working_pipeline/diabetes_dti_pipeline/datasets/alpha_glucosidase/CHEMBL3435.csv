@@ -1,0 +1,7 @@
+molecule_chembl_id,canonical_smiles,standard_value,pref_name,search_term
+CHEMBL2409322,O[C@H]1CCCN2C[C@H](O)[C@H]12,307000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL2409320,OC[C@H](O)[C@@H]1NC[C@@H]1O,39000.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL4215543,OC[C@@H]1N[C@H]([C@@H](O)CO)[C@@H]1O,53700.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL4218600,OC[C@@H]1N[C@H](CO)[C@@H]1O,89420.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL4208842,CN1[C@H](C(=O)O)[C@H](O)[C@@H]1CO,64620.0,Alpha-glucosidase,alpha_glucosidase
+CHEMBL1561,OCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,57140.0,Alpha-glucosidase,alpha_glucosidase

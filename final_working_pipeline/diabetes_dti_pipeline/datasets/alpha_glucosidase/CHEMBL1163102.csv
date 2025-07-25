@@ -1,0 +1,17 @@
+molecule_chembl_id,canonical_smiles,standard_value,pref_name,search_term
+CHEMBL469844,OC[C@H]1N[C@H](CO)[C@@H](O)[C@H]1O,171000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1163255,CCCC[C@@H]1N[C@H](CO)[C@H](O)[C@H](O)[C@H]1C,10000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1163562,C=CCC[C@@H]1N[C@H](CO)[C@H](O)[C@H](O)[C@H]1C,45000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1163254,CC[C@H]1CC[C@@H](O)[C@@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)N1,670000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766350,O[C@@H]1[C@@H](O)[C@H](O)[C@@H](NCc2cn(Cc3cc(OCc4ccccc4)cc(OCc4ccccc4)c3)nn2)[C@H](O)[C@H]1O,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766470,O[C@@H]1[C@@H](O)[C@H](O)[C@@H](NCc2cn(CCC(c3ccccc3)c3ccccc3)nn2)[C@H](O)[C@H]1O,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766473,O[C@@H]1[C@@H](O)[C@H](O)[C@@H](NCc2cn(CC34CC5CC(CC(C5)C3)C4)nn2)[C@H](O)[C@H]1O,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766474,O[C@@H]1[C@@H](O)[C@H](O)[C@@H](NCc2cn(CCCCC3CCCCC3)nn2)[C@H](O)[C@H]1O,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1085392,CCCCCCCCn1cc(CN[C@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]2O)nn1,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1082596,CCCCCCCCCCn1cc(CN[C@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]2O)nn1,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766482,CCCCCCCCCCCn1cc(CN[C@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]2O)nn1,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1083795,CCCCCCCCCCN[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL408500,CCCCCCCCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1766489,OCCCCCCCCCCn1cc(CN[C@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]2O)nn1,100000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1933098,C[C@@H]1CNC[C@@H](O)[C@@H](O)[C@@H]1O.Cl,12000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase
+CHEMBL1933097,C[C@H]1CNC[C@@H](O)[C@@H](O)[C@@H]1O.Cl,226000.0,Probable alpha-glucosidase Os06g0675700,alpha_glucosidase

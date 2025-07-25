@@ -1,0 +1,2 @@
+molecule_chembl_id,canonical_smiles,standard_value,pref_name,search_term
+CHEMBL178597,O=C(CO)NCC1OC(CO)C(O)C(O)C1O,851000.0,Alpha-glucosidase,alpha_glucosidase
