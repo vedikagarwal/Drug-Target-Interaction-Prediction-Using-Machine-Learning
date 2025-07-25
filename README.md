@@ -16,57 +16,58 @@ This repository contains code and data for a machine learning-based study aimed 
 │   └── ppar_binding_affinity_dataset.csv      # PPAR binding affinity data for diabetes
 
 ├── Notebooks                                  # Experimental / exploratory notebooks
-│   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb   # Pipeline for AChE Dataset 1
-│   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb   # Pipeline for AChE Dataset 2
-│   ├── Drug_Target_Interaction_Prediction_mao_b.ipynb      # MAO-B-specific DTI pipeline
-│   ├── Drug_Target_Interaction_Prediction_Neural_Network.ipynb # NN-based general DTI modeling
-│   ├── Classification_ECFP4_FingerPrint_and_Neural_Network.ipynb # Classification using ECFP4 + NN
-│   ├── ECFP4_FingerPrint_and_Neural_Network.ipynb           # Feature exploration with ECFP4
-│   ├── mao_b_and_AChe_regression.ipynb                      # Regression tasks on AChE + MAO-B
-│   └── {File_name}.ipynb                                    # Experimental: model/dataset trials
+│   ├── Drug_Target_Interaction_Prediction_Dataset1.ipynb        # Pipeline for AChE Dataset 1
+│   ├── Drug_Target_Interaction_Prediction_Dataset2.ipynb        # Pipeline for AChE Dataset 2
+│   ├── Drug_Target_Interaction_Prediction_mao_b.ipynb           # MAO-B-specific DTI pipeline
+│   ├── Drug_Target_Interaction_Prediction_Neural_Network.ipynb  # NN-based general DTI modeling
+│   ├── Classification_ECFP4_FingerPrint_and_Neural_Network.ipynb# Classification using ECFP4 + NN
+│   ├── ECFP4_FingerPrint_and_Neural_Network.ipynb               # Feature exploration with ECFP4
+│   ├── mao_b_and_AChe_regression.ipynb                          # Regression tasks on AChE + MAO-B
+│   └── {File_name}.ipynb                                        # Experimental: model/dataset trials
 
-├── complete_ml_pipeline_best_performers.ipynb  # Final DTI pipeline (multi-task NN + ensemble + MAO)
+├── complete_ml_pipeline_best_performers.ipynb   # Final DTI pipeline (multi-task NN + ensemble + MAO)
 
-├── Diabetes_ppar_descriptor.ipynb              # PPAR-specific pipeline with descriptor engineering
+├── Diabetes_ppar_descriptor.ipynb               # PPAR-specific pipeline with descriptor engineering
 
-├── LLM_Ollama.ipynb                            # LLM experiments using TinyLlama for DTI tasks
+├── LLM_Ollama.ipynb                             # LLM experiments using TinyLlama for DTI tasks
 
-├── README.md                                   # Project overview, setup instructions, usage guide
+├── README.md                                    # Project overview, setup instructions, usage guide
 
-└── final_working_pipeline/                     # Finalized, production-ready ML + docking pipelines
-    ├── alzheimers_parkinsons_dti_pipeline/     # Alzheimer's + Parkinson’s complete ML pipeline
+└── final_working_pipeline/                      # Finalized, production-ready ML + docking pipelines
+    ├── alzheimers_parkinsons_dti_pipeline/      # Alzheimer's + Parkinson’s complete ML pipeline
     │   ├── complete_ml_pipeline_best_performers.ipynb
-    │   └── dataset/                            # Curated dataset subset for this pipeline
+    │   └── dataset/                             # Curated dataset subset for this pipeline
     │       ├── AChE_Bioactivity_data_2.csv
     │       ├── mao_a_ic50.csv
     │       └── mao_b_ic50.csv
 
-    └── diabetes_dti_pipeline/                  # Diabetes pipeline (ML + docking + descriptors)
-        ├── Diabetes_ppar_descriptor.ipynb      # Integrated pipeline for PPAR-related drug prediction
-        ├── autodock_files/                     # Files used in AutoDock Vina docking workflow
-        │   ├── config/                         # Docking configuration
+    └── diabetes_dti_pipeline/                   # Diabetes pipeline (ML + docking + descriptors)
+        ├── Diabetes_ppar_descriptor.ipynb       # Integrated pipeline for PPAR-related drug prediction
+        ├── autodock_files/                      # Files used in AutoDock Vina docking workflow
+        │   ├── config/                          # Docking configuration
         │   │   └── config.txt
-        │   ├── docking_results/                # Output from docking simulations
+        │   ├── docking_results/                 # Output from docking simulations
         │   │   └── ppar_docking.csv
-        │   ├── ligand/                         # Ligand molecule files
+        │   ├── ligand/                          # Ligand molecule files
         │   │   ├── ligand.pdb
         │   │   ├── ligand.pdbqt
         │   │   └── ligand_atoms.txt
-        │   └── receptor/                       # Receptor (PPAR) structure files
+        │   └── receptor/                        # Receptor (PPAR) structure files
         │       ├── 4ema.pdb
         │       └── ppar.pdbqt
-        └── datasets/                           # Diabetes-specific datasets and preprocessing
-            ├── alpha_glucosidase/              # Raw alpha-glucosidase ChEMBL compound datasets
+        └── datasets/                            # Diabetes-specific datasets and preprocessing
+            ├── alpha_glucosidase/               # Raw alpha-glucosidase ChEMBL compound datasets
             │   ├── CHEMBL1163102.csv
             │   ├── CHEMBL1293309.csv
-            │   ├── ...
+            │   ├── ...                          # Other compound files
             │   └── alpha_glucosidase.csv
-            ├── alpha_glucosidase_targets/      # Target info for alpha-glucosidase compounds
+            ├── alpha_glucosidase_targets/       # Target info for alpha-glucosidase compounds
             │   └── targets_alpha_glucosidase.csv
-            └── processed_dataset/              # Cleaned and merged data for training/testing
+            └── processed_dataset/               # Cleaned and merged data for training/testing
                 ├── merging_alpha_glucosidase.csv
                 ├── merging_alpha_glucosidase_cleaned.csv
                 └── ppar_2d_descriptors.csv
+
 '''
 
 ## Datasets
