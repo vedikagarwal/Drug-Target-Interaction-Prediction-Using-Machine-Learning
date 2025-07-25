@@ -68,7 +68,8 @@ This repository contains code, data, and molecular docking files for a machine l
 
 #### Diabetes
 
-<img width="1664" height="1632" alt="image" src="https://github.com/user-attachments/assets/4435b7c2-4831-4250-a429-00c2beb70c9c" />
+<img width="1732" height="1592" alt="image" src="https://github.com/user-attachments/assets/bf36a0ea-de60-41f2-bee9-0a1e27cf8fcc" />
+
 
 
 #### Alzheimer's and Parkinson's
