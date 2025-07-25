@@ -106,19 +106,6 @@ Each dataset contains key columns:
 pip install pandas matplotlib seaborn rdkit scikit-learn tensorflow datasets scikit-learn pandas numpy transformers
 ```
 
-## Future Plans
-
-- Explore and play around with LLM's
-- Extend to other disaeses
-- Create a more robust ML pipleine 
-
-## Learning Outcomes
-
-- Working with cheminformatics datasets and SMILES strings
-- Molecular descriptor computation using RDKit
-- Regression modeling with scikit-learn
-- Model evaluation using R² and RMSE
-
 ## License
 
 This project is intended for academic and research purposes. Attribution required for reuse.
