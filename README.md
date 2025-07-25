@@ -13,6 +13,10 @@ The project includes:
 
 This unified pipeline aims to combine cheminformatics and docking-based methods for robust drug-target interaction prediction.
 
+## Final Report 
+
+- https://drive.google.com/file/d/1gg3f8TrlH6L94q90kwe5oInl10chNTwR/view?usp=drive_link
+
 ## Repository Structure
 
 ```
