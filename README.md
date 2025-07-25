@@ -74,59 +74,19 @@ This unified pipeline aims to combine cheminformatics and docking-based methods 
 
 ```
 
-## Datasets
-
-Each dataset contains key columns:
-- `molecule_chembl_id`: Unique ChEMBL compound ID
-- `canonical_smiles`: SMILES string encoding molecular structure
-- `standard_value`: Bioactivity value (e.g., IC50)
-
-### Preprocessing Steps:
-- Dropping missing values (`NaN`)
-- Removing extreme outliers (`standard_value` ≥ 1,000,000)
-- Adding `log_ic50 = log10(standard_value)` column
-- Computing molecular descriptors using RDKit:
-  - Molecular Weight
-  - LogP (octanol-water partition coefficient)
-  - Number of Hydrogen Donors
-  - Number of Hydrogen Acceptors
-
-## Modeling Approach
-
-- **Model**: Random Forest Regressor (scikit-learn), Neural Networks and Ensemble modelling
-- **Features**: RDKit molecular descriptors
-- **Target**: `log_ic50`
-- **Evaluation Metrics**:  
-  - R² Score  
-  - RMSE (Root Mean Square Error)
-
 ###  Results
 
-### Diabetes
+#### Diabetes
 
 <img width="1664" height="1632" alt="image" src="https://github.com/user-attachments/assets/4435b7c2-4831-4250-a429-00c2beb70c9c" />
 
 
-### Alzheimer's and Parkinson's
+#### Alzheimer's and Parkinson's
 
 <img width="1052" alt="results_o:p" src="https://github.com/user-attachments/assets/b0b712fd-db5e-4a68-9edb-45976e8f0a5d" />
 
 <img width="332" alt="evaluation_metrics" src="https://github.com/user-attachments/assets/2cfed9dc-4e4c-44c2-b993-a1b1d246654e" />
 
-## Dependencies
-
-- Python 3.8+
-- pandas
-- numpy
-- scikit-learn
-- rdkit
-- matplotlib (optional)
-
-### Install Requirements
-
-```bash
-pip install pandas matplotlib seaborn rdkit scikit-learn tensorflow datasets scikit-learn pandas numpy transformers
-```
 
 ## License
 
