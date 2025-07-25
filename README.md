@@ -12,6 +12,9 @@ This repository contains code, data, and molecular docking files for a machine l
 
 ```
 .
+
+### Experimental work done
+
 ├── Initial_Datasets
 │   ├── AChE_Bioactivity_data_1.csv        # ChEMBL AChE dataset (15K+ compounds)
 │   ├── AChE_Bioactivity_data_2.csv        # Alternate ChEMBL AChE subset (12K+ compounds)
@@ -25,6 +28,7 @@ This repository contains code, data, and molecular docking files for a machine l
 ├── LLM_Ollama.ipynb                                     # Initial LLM experiments using TinyLlama + prompt engineering
 ├── Diabetes_ppar_descriptor.ipynb                       # Initial Diabetes PPAR Descriptor Notebook
 
+### Final working pipeline
 
 ├── final_working_pipeline/                              # Finalized, production-ready ML + docking pipelines
 │   ├── alzheimers_parkinsons_dti_pipeline/              # Alzheimer's + Parkinson’s complete ML pipeline
