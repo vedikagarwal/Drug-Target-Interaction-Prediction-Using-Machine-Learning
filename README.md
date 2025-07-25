@@ -32,8 +32,7 @@ This repository contains code and data for a machine learning-based study aimed 
 ├── LLM_Ollama.ipynb                             # LLM experiments using TinyLlama for DTI tasks
 
 ├── README.md                                    # Project overview, setup instructions, usage guide
-
-└── final_working_pipeline/                      # Finalized, production-ready ML + docking pipelines
+├── final_working_pipeline/                      # Finalized, production-ready ML + docking pipelines
     ├── alzheimers_parkinsons_dti_pipeline/      # Alzheimer's + Parkinson’s complete ML pipeline
     │   ├── complete_ml_pipeline_best_performers.ipynb
     │   └── dataset/                             # Curated dataset subset for this pipeline
@@ -41,7 +40,7 @@ This repository contains code and data for a machine learning-based study aimed 
     │       ├── mao_a_ic50.csv
     │       └── mao_b_ic50.csv
 
-    └── diabetes_dti_pipeline/                   # Diabetes pipeline (ML + docking + descriptors)
+    ├── diabetes_dti_pipeline/                   # Diabetes pipeline (ML + docking + descriptors)
         ├── Diabetes_ppar_descriptor.ipynb       # Integrated pipeline for PPAR-related drug prediction
         ├── autodock_files/                      # Files used in AutoDock Vina docking workflow
         │   ├── config/                          # Docking configuration
